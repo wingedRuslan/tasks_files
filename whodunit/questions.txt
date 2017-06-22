@@ -1,0 +1,14 @@
+1.  <stdint.h> is a header file located in the C standard Library which "allow programmers to write more portable code by providing a set of typedefs,"
+    that narrow down specific typedefs in exact-integer types.
+2.  You can fill up exactly the amount of space you want in a file	
+    uint24_t means an integer that is exactly 24 bits wide.
+3.  BYTE : 8-bit, DWORD : 32-bit, LONG : 32-bit, WORD : 16-bit
+4.  hex value (0x42 0x4D) according to google ;) 
+5.  bfSize is the file size of the file .bmp, while biSize is a header size. 
+6.  The situation when pixel data is ordered from the top-down
+7.  biBitCount field
+8.  return NULL when file is too large or user does not have permissions  
+9.  We want to copy one individual structure per read
+10. padding = 1
+11. fseek is used to move a position pointer through a file stream.
+12. SEEK_CUR indicates the current position of the position pointer.
